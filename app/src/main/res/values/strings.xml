@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">DeliveryApplicaiotn</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="font_fontFamily_medium">sans-serif</string>
+    <string name="msg">Allow MyFleetServices to access your location</string>
+
+    <string name="order_id_mock" translatable="false">    #3261354677</string>
+    <string name="price_mock" translatable="false">OrderId :</string>
+    <string name="requests_count_mock" translatable="false">Fila FEDERIANO Sneakers  (Green)</string>
+    <string name="requests_count_badge" translatable="false">REQUESTS</string>
+    <string name="weight_mock" translatable="false">50 oz</string>
+    <string name="weight_badge" translatable="false">WEIGHT</string>
+    <string name="pledge_mock" translatable="false">$150</string>
+    <string name="pledge_badge" translatable="false">PLEDGE</string>
+    <string name="sender_badge" translatable="false">Delivery Person</string>
+    <string name="client_name_mock" translatable="false">Jaya Shankar</string>
+    <string name="rating_mock" translatable="false">(4.2)</string>
+    <string name="from_badge" translatable="false">FROM</string>
+    <string name="to_badge" translatable="false">TO</string>
+    <string name="delivery_date_badge" translatable="false">DELIVERY DATE</string>
+    <string name="delivery_time_mock" translatable="false">6:30 pm</string>
+    <string name="delivery_date_mock" translatable="false">Nov 15, 2017</string>
+    <string name="deadline_badge" translatable="false">City</string>
+    <string name="deadline_time_mock" translatable="false">Hyderabad</string>
+    <string name="request_btn_text" translatable="false">REQUEST</string>
+    <string name="btn_annotation_mock" translatable="false">5 people have sent a request</string>
+    <string name="content_from1_mock">Madhapur Hub</string>
+    <string name="content_from2_mock">Hyderabad</string>
+    <string name="content_to1_mock">KPHB</string>
+    <string name="content_to2_mock">Hyderabd</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="tab_1">Delivery 1</string>
+    <string name="tab_2">Track 2</string>
+    <string name="tab_3">Profile</string>
+
+    <string name="menu_1">Delivery</string>
+    <string name="menu_2">Track</string>
+    <string name="menu_3">Profile</string>
+</resources>

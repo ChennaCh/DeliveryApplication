@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.skilliantech.deliveryapplication.Activity.HomeScreenActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10.0"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_home"
+            android:minHeight="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4.6"
+            app:titleTextColor="@android:color/white"
+            android:background="@color/light_blue">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:padding="5dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/delivery_boy_image"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:text="Delivery"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+        <!--<FrameLayout-->
+            <!--android:id="@+id/fragment_frame"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_weight="0.8"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<include layout="@layout/fragment_deliry_detail"/>-->
+
+        <!--</FrameLayout>-->
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        </android.support.v4.view.ViewPager>
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_weight="4.6"
+            android:background="@color/light_blue"
+            app:tabIndicatorColor="@color/white"
+            app:tabSelectedTextColor="#ffffff"
+            app:tabTextColor="#b1a4a4"
+            app:tabMode="fixed"
+            app:tabGravity="fill"/>
+        <!--<com.aurelhubert.ahbottomnavigation.AHBottomNavigation-->
+            <!--android:id="@+id/bottom_navigation"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:layout_weight="4.6"-->
+            <!--app:selectedBackgroundVisible="false"/>-->
+
+
+    </LinearLayout>
+
+</LinearLayout>
